@@ -50,3 +50,8 @@ $ npm install http-server
 $ http-server build
 ```
 
+# SCREENSHOTS
+<img src="public/snapshots/1.png" >
+
+<img src="public/snapshots/2.png" >
+

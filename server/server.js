@@ -32,9 +32,8 @@ let schema = buildSchema(`
 let userslist = {
   a: {
     id: "a",
-    nickname: "Jariel",
-    avatar: "https://scontent.fbom2-1.fna.fbcdn.net/v/t1.0-9/293863_293984350673213_1815846459_n.jpg?_nc_cat=102&_nc_ht=scontent.fbom2-1.fna&oh=3ccdce3b5ac0db1ac2637396387ebec5&oe=5D2C8927
-"
+    nickname: "Jariel Gojar",
+    avatar: "https://scontent.fbom2-1.fna.fbcdn.net/v/t1.0-9/293863_293984350673213_1815846459_n.jpg?_nc_cat=102&_nc_ht=scontent.fbom2-1.fna&oh=3ccdce3b5ac0db1ac2637396387ebec5&oe=5D2C8927"
   },
   b: {
     id: "b",
@@ -48,20 +47,19 @@ let postslist = {
     a: {
       id: "a",
       user: userslist["a"],
-      caption: "Birthday Cake",
-      image: "https://b.zmtcdn.com/data/pictures/7/8237/e7b5faa774fc0a331cb621dab72c43a7_featured_v2.jpg  "
+      caption: "Speech at Sisters Wedding",
+      image: "https://scontent.fbom2-1.fna.fbcdn.net/v/t1.0-9/293863_293984350673213_1815846459_n.jpg?_nc_cat=102&_nc_ht=scontent.fbom2-1.fna&oh=3ccdce3b5ac0db1ac2637396387ebec5&oe=5D2C8927"
     },
     b: {
       id: "b",
       user: userslist["a"],
       caption: "Kharghar Hill",
       image:
-        "https://media-cdn.tripadvisor.com/media/photo-s/0e/2d/20/8c/just-10th-minute-from.jpg
-
+        "https://media-cdn.tripadvisor.com/media/photo-s/0e/2d/20/8c/just-10th-minute-from.jpg"
     }
-
   }
 };
+
 
 // The root provides a resolver function for each API endpoint
 let root = {
